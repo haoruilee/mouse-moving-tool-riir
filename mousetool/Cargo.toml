@@ -1,0 +1,15 @@
+[package]
+name = "insomnia"
+version = "0.1.0"
+edition = "2021"
+authors = ["haoruilee"]
+description = "A tool to prevent system sleep by simulating mouse movements"
+license = "MIT"
+
+
+[dependencies]
+enigo = "0.1.2"         # For mouse movements
+tray-item = "0.7.1"     # For system tray functionality
+schedule_recv = "0.1.0" # For scheduling
+rand = "0.8.5"          # For random numbers
+once_cell = "1.17.1"    # For lazy static 
